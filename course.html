@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<section class="sub-hedder">
+<nav>
+    <a href="index.html"><img src="eduford_img/logo.png " alt=""></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+        </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>About US</h1>
+</section>   
+
+<!-- About Section -->
+
+<section class="about-us">
+
+    <div class="row">
+
+        <div class="about-col">
+            <h1>We are the world's largest University</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur explicabo similique ratione, sit iure voluptatem omnis? Sed pariatur quod commodi ea eaque quam facilis nulla, dignissimos aperiam ab nisi illum magnam rem laborum quos aliquid veniam iusto culpa consectetur, in quas officia laboriosam! Laborum voluptatem, explicabo eum dolorem harum eaque.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="eduford_img/about.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+
+
+
+
+ <!-- Footer -->
+
+ <section class="footer">
+
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Facilis eligendi iste voluptates. Qui assumenda quaerat natus quia, reprehenderit maiores illo!</p>
+    
+    <div class="icons">
+
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-whatsapp"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-telegram"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+
+
+    </div>
+    <p>Made By <i class="fa-brands fa-facebook"></i> A.H Kafi</p>
+ </section>
+
+
+
+
+<!-- JavaScript for Toggle Menu -->
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.width = "200px"
+    }
+    function hideMenu(){
+        navlinks.style.width = "0px"
+    }
+</script>
+
+</body>
+</html> 
